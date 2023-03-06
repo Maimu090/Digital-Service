@@ -1,0 +1,517 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    overflow-x: none;
+}
+.main{
+    background-color: #e3eef8;
+    padding: 15px 30px 150px;
+    overflow-x: hidden;
+}
+ nav{
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+    width: 150px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.closeIcon {
+    display: none;
+}
+
+.mobileLogo {
+    display: none;
+}
+.closeIcon {
+    display: none;
+}
+
+.nav-links{
+    text-align: center;
+    
+}
+.nav-links ul li{
+    display: inline-block;
+    justify-content: space-between;
+    padding: 6px;
+    list-style-type: none;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    transition: 0.5s;
+}
+ .nav-links ul li .btn
+    {
+    margin-left: 400px;
+    margin-right: 0;
+    padding: 12px 30px;
+    border: 1px solid blue;
+    font-size: 13px;
+    color: blue;
+}
+.nav-links ul li a:hover{
+    color: blue;
+} 
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.3s ease;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a:hover{
+    color: #258aff;
+}
+.menu-btn{
+    color: #161414;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+    
+}
+.text-box{
+    width: 90%;
+    padding-top: 150px;
+    margin: auto;
+    text-align: center;
+}
+.text-box h3{
+    font-weight: lighter;
+    margin-bottom: 2%;
+    font-size: 15px;
+}
+.text-box h1{
+    font-size: 60px;
+    font-weight: bold;
+    padding:0px 300px;
+    margin-bottom: 2%;
+}
+.text-box p{
+    padding: 0px 370px;
+    font-size: 20px;
+    color: grey;
+    margin-bottom: 2%;
+}
+.demo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+    
+}
+.demo input{
+    background-color: white;
+    border: 1px solid white;
+    padding: 15px 34px;
+    margin:0px 10px;
+    
+}
+.demo a{
+    padding: 15px 34px;
+    border: 1px solid orangered;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    background-color: orangered;
+    text-decoration: none;
+    margin:0px 10px;
+    font-weight: bold;
+}
+h4{
+    color: gray;
+    font-size: 16px;
+}
+nav .fa{
+    display: none;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.course-col .fa{
+    color: blue;
+    font-size: 30px;
+    position: absolute;
+    margin-bottom: 2%;
+}
+.course-col h3{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.course-col p{
+    color: gray;
+}
+
+.team{
+    padding: 80px 30px;
+    background-color:  #258aff;
+}
+.team{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.column h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.column{
+margin-left: 70px;
+color: #fff;
+}
+.column h2{
+font-size: 50px;
+padding:0px 100px;
+}
+.column p {
+    font-size: 16px;
+    padding: 0px 100px;
+    margin-bottom: 50px;
+}
+.column a{
+     padding: 15px 34px;
+    border: 1px solid white;
+    color: blue;
+    font-size: 13px;
+    cursor: pointer;
+    background-color: white;
+    text-decoration: none;
+    margin:0px 10px;
+    margin-left: 100px;
+    font-weight: bold;  
+}
+.content{
+    background-color: #e3eef8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 30px;
+    border-bottom: 1px solid white;
+}
+.content h3{
+    text-transform: uppercase;
+    color: #258aff;
+    margin-bottom: 30px;
+    padding: 0 100px;
+}
+.content h2{
+    font-size: 50px;
+    padding: 0px 100px;
+    margin-bottom: 2%;
+}
+.content p{
+padding: 0px 100px;
+font-size: 16px;
+color: gray;
+margin-bottom: 50px;
+}
+.pages{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content-pal .fa{
+    color: blue;
+    font-size: 30px;
+    margin-left: 10rem;
+    margin-bottom: 2%;   
+}
+.content-pal h3{
+    margin-bottom: 2%;
+}
+.golden{
+    background-color: #e3eef8;
+    padding: 80px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.golden-col h3{
+    padding-top: 80px;
+    font-size: 20px;
+    color: #258aff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    padding: 0px 100px;
+}
+.golden-col h2{
+    font-size: 50px;
+    padding: 0 100px;
+}
+.golden-col p{
+    font-size: 16px;
+    color: gray;
+    padding: 0 100px;
+}
+.golden-row{
+    background-color: white;
+    color: #000;
+    padding:40px 30px;
+    border: 1px solid white;
+    margin: 10px 30px;
+}
+.golden-row h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.golden-row img{
+    position: absolute;
+}
+.golden-row h5{
+    margin-left: 50px;
+    font-size: 25px;
+    margin-bottom: 2%;
+}
+.golden-row p{
+    margin-left: 50px;
+    font-size: 16px;
+    color: gray;
+}
+.golden-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e3eef8;
+}
+.card{
+    background: url(./background\ blue.png);
+     padding: 120px 30px;
+    background-position: 50% 50%;
+    background-size: cover;
+    color: white;
+}
+.card h3{
+    text-align: center;  
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.card h2{
+    text-align: center;
+    font-size: 40px;
+}
+.start{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 160px;
+}
+.card-col{
+    background-color: rgb(34, 34, 49);
+    padding: 20px 30px;
+    margin-bottom: 2%;
+    margin:0 10px;
+}
+.card-cos{
+    background-color: white;
+    color: black;
+    padding: 20px 30px;
+    margin: 0 10px;
+}
+.card-col a{
+    padding: 15px 34px;
+    border: 1px solid blue;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    background-color: blue;
+    text-decoration: none;
+    margin:0px 10px;
+    font-weight: bold;  
+}
+.card-cos h4{
+    margin-bottom: 30px;
+}
+.card-cos p{
+    margin-top: 30px;
+}
+.card-col h4{
+    margin-bottom: 30px;
+}
+.card-col p{
+    margin-top: 30px;
+}
+.card-cos a{
+    padding: 15px 34px;
+    border: 1px solid orangered;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    background-color: orangered;
+    text-decoration: none;
+    margin:0px 10px;
+    font-weight: bold;  
+}
+.start h1{
+    font-size: 30px;
+    margin: 10px 0;
+}
+.footer{
+    background-color: #e3eef8;
+    padding: 80px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-col p{
+    margin-top: 30px;
+}
+.footer-col h4{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: gray;
+}
+.footer-col h5{
+    margin-bottom: 2%;
+    font-weight: bold; 
+}
+.footer-col .fa{
+    margin: 10px;
+    color: #258aff;
+}
+@media (max-width: 700px){
+    .footer{
+        display: block;
+    }
+    .start{
+        flex-direction: column;
+        margin: 10px 0;
+    }
+    .card-col{
+        margin: 10px 0;
+    }
+    .card-cos{
+        margin: 10px 0;
+    }
+    .golden-img img{
+        width: 70px;
+    }
+    .golden{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .golden-col p{
+        margin-bottom: 3%;
+    }
+    .pages{
+        flex-direction: column;
+    }
+    .content-pal .fa{
+        margin-left: 0;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .content h3{
+        padding: 0px;
+        font-size: 20px;
+    }
+    .content h2{
+        padding: 0px;
+        font-size: 30px;
+    }
+    .content p{
+        padding: 0;
+        margin-bottom: 5%;
+    }
+    .team{
+        flex-direction: column;
+    }
+    .column{
+        margin: 0px;
+    }
+    .column h2{
+        padding: 0px;
+        font-size: 30px;
+    }
+    .column p{
+        padding: 0px;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .course-col{
+        margin-bottom: 2%;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links ul li .btn{
+        padding: 0.15rem 1rem;
+        margin-left: 0;
+    }
+    .text-box h3{
+font-size: 20px;
+    }
+    .text-box h1{
+        padding: 0 20px;
+        font-size: 30px;
+    }
+    .text-box p{
+        padding: 0 20px;
+        font-size: 20px;
+    }
+
+      .hamburger {
+        display: block;
+        position: absolute;
+        z-index: 100;
+        top: 1rem;
+        right: 1rem;
+        padding: 4px;
+        border: black solid 1px;
+        cursor: pointer;
+    }
+
+    .mobileLogo {
+        display: block;
+        margin: 1rem;
+    }
+
+    .nav-links {
+        position: fixed;
+        transform: translateX(-100%);
+        transition: transform 0.2s;
+        width: 200px;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        background: white;
+        color:rgb(34, 34, 49);
+        list-style: none;
+        padding-top: 4rem;
+    }
+
+      .showMenu {
+        transform: translateX(0)
+      }
+    
+      
+        
+}
+
